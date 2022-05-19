@@ -29,7 +29,7 @@ img {
     margin-top: 10px;
 }
 .icon-point-up {
-    justify-content: flex-end;
+    justify-content: center;
     margin-top: -9px;
     float: inline-start;
     animation-name: dedo;
