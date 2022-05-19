@@ -1,24 +1,28 @@
-* { padding: 0;
+* {
+    padding: 0;
     margin: 0;
     max-Width: 490px;
     max-Height: 830px;
     margin-left: 1vh;
-    
-    
+
+
 }
 
 body {
     background: black;
     margin-left: 50px;
 }
+
 /*spans e imagenes*/
 span {
     color: #CAFCC4;
 }
+
 .fspan {
     margin-left: 30px;
     margin-top: 20px;
 }
+
 img {
     width: 35px;
     height: 35px;
@@ -28,34 +32,69 @@ img {
     border-radius: 50%;
     margin-top: 10px;
 }
+
 .icon-point-up {
     float: left;
-    justify-content: flex-start;
+    justify-content: flex-end;
     margin-left: 15%;
     margin-top: -8px;
-    animation-name: dedo ;
-animation-duration: 10s;}
+    animation-name: dedo;
+    animation-duration: 10s;
+}
+
 .icon-point-down {
     float: left;
     justify-content: flex-start;
     margin-left: -20%;
     margin-top: -8px;
-    animation-name: dedo ;
-animation-duration: 8s;}
-@keyframes dedo {
-    2%{transform: rotate(360deg);}
-    10%{color:#443AD8;}
-    20%{color:brown;}
-    30%{color:olive}
-    40%{color:blueviolet}
-    50%{color:chartreuse}
-    60%{color:darkgreen}
-    70%{color:mediumpurple;}
-    80%{color:yellow;}
-    90%{color:#FFFFFF;}
+    animation-name: dedo;
+    animation-duration: 8s;
+}
 
-    
-}    
+@keyframes dedo {
+    2% {
+        transform: rotate(360deg);
+    }
+
+    10% {
+        color: #443AD8;
+    }
+
+    20% {
+        color: brown;
+    }
+
+    30% {
+        color: olive
+    }
+
+    40% {
+        color: blueviolet
+    }
+
+    50% {
+        color: chartreuse
+    }
+
+    60% {
+        color: darkgreen
+    }
+
+    70% {
+        color: mediumpurple;
+    }
+
+    80% {
+        color: yellow;
+    }
+
+    90% {
+        color: #FFFFFF;
+    }
+
+
+}
+
 /*-------*/
 .single {
     float: left;
@@ -63,6 +102,7 @@ animation-duration: 8s;}
     display: grid;
     margin-top: 42px;
 }
+
 .group {
     float: left;
     display: flex;
@@ -70,7 +110,7 @@ animation-duration: 8s;}
     display: grid;
     margin-left: 97px;
     color: #B8B8B8
-   }
+}
 
 .menu {
     float: right;
@@ -78,6 +118,7 @@ animation-duration: 8s;}
     display: flex;
     margin-top: -48px;
 }
+
 .Transaction {
     align-content: center;
     font-family: 'Inter';
@@ -87,6 +128,7 @@ animation-duration: 8s;}
     line-height: 22px;
     text-align-last: center
 }
+
 .Ledger {
     align-content: center;
     font-family: 'Inter';
@@ -97,12 +139,14 @@ animation-duration: 8s;}
     color: white;
     margin-left: 20px;
 }
+
 .totalamount {
     color: #FFFFFF;
     text-align-last: center;
     font-family: 'Sora';
     margin-right: 45px;
 }
+
 .Transaction {
     color: white;
     margin-right: 45px;
@@ -189,7 +233,8 @@ animation-duration: 8s;}
     border-radius: 30px;
     margin-top: -370px;
 }
-.number{
+
+.number {
     color: #B8B8B8;
     margin-top: 6px;
 }
@@ -217,14 +262,14 @@ animation-duration: 8s;}
 
 .send {
     display: flex;
-     width: 55%;
-    flex-direction:row;
+    width: 55%;
+    flex-direction: row;
     align-items: flex-start;
     background: #443AD8;
     border-radius: 30px;
     display: grid;
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
     padding: 20px;
     gap: 1em;
     row-gap: 1em;
@@ -238,9 +283,12 @@ animation-duration: 8s;}
     text-decoration: none;
     margin-top: -10px;
     margin-left: 15%;
-       }
-.send p{
-color: #FFFFFF;}
+}
+
+.send p {
+    color: #FFFFFF;
+}
+
 a {
     text-decoration: none;
     font-family: 'Inter';
@@ -273,7 +321,7 @@ h3 {
     margin-left: 20%;
     height: 42px;
     margin-top: 10px;
-   }
+}
 
 .spending {
     float: inline-end;
@@ -362,7 +410,8 @@ h3 {
 .rectanglemas {
     width: 100%;
     height: 60px;
-    grid-row-gap: 2em; ;
+    grid-row-gap: 2em;
+    ;
 }
 
 .name {
@@ -381,8 +430,8 @@ h3 {
     margin-left: 50px;
     margin-top: -35px;
 }
-.name1
-{
+
+.name1 {
     width: 83px;
     height: 30px;
     font-family: 'Inter';
@@ -398,6 +447,7 @@ h3 {
     margin-left: 50px;
     margin-top: -25px;
 }
+
 .transtipe {
     color: white;
     width: 95px;
@@ -437,6 +487,7 @@ h3 {
     margin-left: -15px;
     margin-top: -50px;
 }
+
 .time {
     color: aquamarine;
     width: 100%;
@@ -471,19 +522,21 @@ h3 {
     line-height: 15px;
     text-align: right;
     margin-left: -15px;
-    }
+}
 
 @media(min-width: 501px) {
     * {
         max-Width: none;
         max-Height: none;
     }
+
     .send {
         margin-left: 18%;
         margin-right: 20px;
         width: 60%;
     }
-    .Exchange2{
+
+    .Exchange2 {
         margin-left: 10%;
     }
 }
