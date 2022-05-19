@@ -29,14 +29,12 @@ img {
     margin-top: 10px;
 }
 .icon-point-up {
-    position: relative;
-    justify-content: center;
-    margin-top: -9px;
-    float: inline-start;
-    animation-name: dedo;
-    animation-duration: 8s;
-    margin-right: 40px;
-}
+    float: left;
+    justify-content: flex-start;
+    margin-left: -40px;
+    margin-top: -8px;
+    animation-name: dedo ;
+animation-duration: 8s;}
 .icon-point-down {
     float: left;
     justify-content: flex-start;
