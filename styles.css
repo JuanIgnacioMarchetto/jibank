@@ -32,7 +32,7 @@ img {
     position: fixed;
     justify-content: flex-end;
     margin-top: -9px;
-    margin-left: -145px;
+    margin-left: -50%;
     animation-name: dedo;
     animation-duration: 8s;
 }
