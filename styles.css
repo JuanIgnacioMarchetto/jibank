@@ -29,6 +29,7 @@ img {
     margin-top: 10px;
 }
 .icon-point-up {
+    position: relative;
     justify-content: center;
     margin-top: -9px;
     float: inline-start;
