@@ -36,7 +36,6 @@ img {
 .icon-point-up {
     float: left;
     position: relative;
-    margin-right: -5%;
     margin-top: -8px;
     animation-name: dedo;
     animation-duration: 10s;
