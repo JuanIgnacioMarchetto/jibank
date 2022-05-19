@@ -212,6 +212,7 @@ animation-duration: 8s;}
     margin-left: 20px;
     margin-right: 20px;
     height: 35px;
+    width: auto;
 }
 
 .send {
