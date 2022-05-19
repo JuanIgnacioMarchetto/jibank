@@ -31,10 +31,10 @@ img {
 .icon-point-up {
     float: left;
     justify-content: flex-start;
-    margin-right: -5%;
+    margin-left: -15%;
     margin-top: -8px;
     animation-name: dedo ;
-animation-duration: 8s;}
+animation-duration: 10s;}
 .icon-point-down {
     float: left;
     justify-content: flex-start;
