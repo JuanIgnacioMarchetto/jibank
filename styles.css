@@ -101,7 +101,7 @@ img {
     float: left;
     display: flex;
     display: grid;
-    margin-top: 42px;
+    margin-top: 22px;
 }
 
 .group {
@@ -225,11 +225,10 @@ img {
     align-items: center;
     padding: 1px;
     position: absolute;
-    height: 8vh;
-    left: 11%;
-    right: 9%;
-    top: 70.25%;
+    height: 7vh;
+    top: 80.25%;
     bottom: 62.2%;
+    right: 11%;
     color: white;
     border-radius: 30px;
     margin-top: -370px;
@@ -380,6 +379,7 @@ h3 {
     border: 5px solid black;
     margin-top: 10px;
     height: 6vh;
+    
 }
 
 .momentsmas {
@@ -445,7 +445,7 @@ h3 {
     order: 1;
     flex-grow: 0;
     margin-left: 50px;
-    margin-top: -25px;
+    margin-top: -28px;
 }
 
 .transtipe {
@@ -472,7 +472,7 @@ h3 {
     line-height: 15px;
     text-align: right;
     margin-left: -15px;
-    margin-top: -8px;
+    margin-top: 5px;
 }
 
 .positive2 {
@@ -485,7 +485,7 @@ h3 {
     line-height: 15px;
     text-align: right;
     margin-left: -15px;
-    margin-top: -50px;
+    margin-top: -45px;
 }
 
 .time {
