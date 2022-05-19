@@ -34,11 +34,13 @@ img {
 }
 
 .icon-point-up {
+
     float: left;
-    position: relative;
+    justify-content: flex-start;
+    margin-left: -20%;
     margin-top: -8px;
     animation-name: dedo;
-    animation-duration: 10s;
+    animation-duration: 8s;
 }
 
 .icon-point-down {
@@ -323,18 +325,18 @@ h3 {
 }
 
 .spending {
-    float: inline-end;
+    height: 30px;
     font-family: 'Inter';
     font-style: normal;
     font-size: 18px;
     line-height: 8px;
-    text-align: end;
     color: #FFFFFF;
     width: 100%;
     order: 1;
     flex-grow: 0;
+    margin-left: 30%;
+    height: 42px;
     margin-top: 10px;
-        height: 42px;
 }
 
 .moments {
