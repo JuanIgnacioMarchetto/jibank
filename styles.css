@@ -228,7 +228,7 @@ img {
     height: 7vh;
     top: 80.25%;
     bottom: 62.2%;
-    right: 11%;
+    margin-left: 7%;
     color: white;
     border-radius: 30px;
     margin-top: -370px;
@@ -539,7 +539,8 @@ h3 {
     }
 
     .Exchange2 {
-        margin-left: 10%;
+        margin-left: 15%;
+        bottom: 55%;
     }
     
     
